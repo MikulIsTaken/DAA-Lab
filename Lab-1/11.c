@@ -22,7 +22,7 @@ void findSecondSmallestAndLargest(int arr[], int n, int *secondSmallest, int *se
 int main() {
     FILE *file;
     int n;
-    file = fopen("input1.txt", "r");
+    file = fopen("input11.txt", "r");
     if (file == NULL) {
         printf("Error opening file!\n");
         return 1;
